@@ -1,0 +1,15 @@
+{
+    "name": "bootstrap-with-sass",
+    "version": "1.0.0",
+    "description": "A project for customising bootstrap 4 with sass",
+    "main": "index.js",
+    "scripts": {
+        "sass": "node-sass -w scss/ -o css/ "
+    },
+    "author": "ilyas",
+    "license": "MIT",
+    "dependencies": {
+        "bootstrap": "^4.1.3",
+        "node-sass": "^4.9.3"
+    }
+}
